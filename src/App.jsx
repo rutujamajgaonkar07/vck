@@ -11,9 +11,11 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 import Footer from "./components/Footer/Footer";
+// import { useState } from "react";
+import ContactPage from "./pages/ContactPage";
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/Developerinfo/DeveloperInfoPopup";
-import ContactPage from "./pages/ContactPage";
+import DeveloperPopup from "./components/Developer/DeveloperPopup";
 
 
 
@@ -27,7 +29,7 @@ const App = () => {
       <>
       <div>
         {/* Your main application content */}
-        <DeveloperInfoPopup
+        <DeveloperPopuper
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Rutuja Ganesh Majgaonkar"
