@@ -14,7 +14,6 @@ import Footer from "./components/Footer/Footer";
 // import { useState } from "react";
 import ContactPage from "./pages/ContactPage";
 import { useState } from "react";
-import DeveloperInfoPopup from "./components/Developerinfo/DeveloperInfoPopup";
 import DeveloperPopup from "./components/Developer/DeveloperPopup";
 
 
@@ -29,7 +28,7 @@ const App = () => {
       <>
       <div>
         {/* Your main application content */}
-        <DeveloperPopuper
+        <DeveloperPopup
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Rutuja Ganesh Majgaonkar"
